@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+}
+
+.row {
+    width: 900px;
+    height: 350px;
+    background-color: cornflowerblue;
+    position: relative;
+    background-image: url("./IMAGES/book.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.col {
+    width: 10%;
+    height: 200px;
+    border: 2px black solid;
+    position: absolute;
+    top: 50px;
+}
+
+.col-1 {
+    background-color: rgba(128, 255, 0, 0.299);
+    border-radius: 10px;
+    left: 400px;
+}
+
+.col-2 {
+    background-color: rgb(6, 3, 39);
+    border-radius: 10px;
+    left: 300px;
+
+
+}
+
+.col-3 {
+    background-color: rgb(171, 33, 98);
+    border-radius: 10px;
+    left: 250px;
+
+}
+
+.col-4 {
+    background-color: rgb(3, 54, 50);
+    border-radius: 10px;
+    left: 50px;
+
+}
+/* movie gallery
+image
+name
+desc
+rating inside */
